@@ -22,5 +22,5 @@ word_is_palindrome = "шалаш"
 print(is_palindrome(word_is_palindrome)) # проверка, является ли палиндром палиндромом; возвращает True
 word_is_not_palindrome = "кружок"
 print(is_palindrome(word_is_not_palindrome)) # проверка, является ли не палиндром палиндромом; возвращает False
-check = str(input())
+check = input()
 print(is_palindrome(check)) # проверка, является ли введённая строка палиндромом
