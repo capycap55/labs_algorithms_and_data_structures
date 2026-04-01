@@ -1,3 +1,7 @@
+# Задание task_21. Основной скрипт
+# Выполнил: Попова С.Е.
+# Группа: ЦИБ-251
+
 from deque_module import Deque
 def is_palindrome(s):
   d = Deque()
