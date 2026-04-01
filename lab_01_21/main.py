@@ -7,7 +7,7 @@ def is_palindrome(s):
   d = Deque()
 
   for ch in s:
-    d.add_back(ch) # добавление элементов строки в список
+    d.add_back(ch) # добавление элементов строки в дек
 
   while d.size() > 1:
     front = d.remove_front()
